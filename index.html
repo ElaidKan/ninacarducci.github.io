@@ -13,16 +13,16 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.min.js"></script>
-	<script src="./assets/scripts.min.js"></script>
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>
 	<title>Nina Carducci - photographe </title>
 	<meta name="robots" content="index, follow">
 	<meta property="og:site_name" content="nina carducci" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="URL" />
+	<meta property="og:url" content="https://elaidkan.github.io/ninacarducci.github.io/" />
 	<meta property="og:title" content="Nina Carducci - photographe professionelle" />
 	<meta property="og:description"
 		content="photographe professionelle expérimentée, photo et vidéo de qualité et de prise de vue de nuit comme de jour" />
@@ -33,7 +33,7 @@
 	<meta name="twitter:title" content="nina carducci - photographe professionelle" />
 	<meta name="twitter:description" content="photographe professionelle expérimentée, photo et vidéo de qualité et de prise de vue de nuit comme de jour !" />
 	<meta name="twitter:image" content="./assets/images/nina.webp" />
-	<meta name="twitter:url" content="URL" />
+	<meta name="twitter:url" content="https://elaidkan.github.io/ninacarducci.github.io/" />
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
@@ -46,11 +46,11 @@
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
 			"addressLocality": "Bordeaux.",
-			"addressRegion": "Fr",
+			"addressRegion": "nouvelle aquitaine",
 			"postalCode": "33200",
 			"addressCountry": "France"
 		  },
-		  "url": "https://ninacarducci.github.io/",
+		  "url": "https://elaidkan.github.io/ninacarducci.github.io/",
 		  "telephone": "0556677889",
 		  "priceRange": "50€ - 400€",
 		  "openingHoursSpecification": [
@@ -72,9 +72,9 @@
 </head>
 
 <body>
-	<header class="top-header">
+	<div class="top-header">
 		<h1 class="name">Nina Carducci</h1>
-		<div class="nav">
+		<nav class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
@@ -83,9 +83,9 @@
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
 						target="_blank"><img src="assets/images/instagram.webp" alt="Logo instagram"></a></li>
 			</ul>
-		</div>
-	</header>
-	<div id="header">
+		</nav>
+	</div>
+	<header id="header">
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
@@ -121,7 +121,7 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-	</div>
+	</header>
 	<div id="about">
 		<div class="picture left">
 			<img src="./assets/images/nina.webp" alt="Portrait de Nina">
@@ -140,7 +140,7 @@
 		</div>
 	</div>
 	<div id="gallery">
-		<h3 class="title">Portfolio</h3>
+		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item"
@@ -175,10 +175,10 @@
 		<div class="quote">
 			<figure>
 				<blockquote>
-					<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
+					<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
 						fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
 						n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
-					</h1>
+					</p>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
@@ -226,8 +226,8 @@
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
-					traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+				<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
+					traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
